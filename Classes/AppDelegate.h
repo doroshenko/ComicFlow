@@ -40,11 +40,6 @@
 @interface AppDelegate (WebServer) <WebServerDelegate>
 @end
 
-@interface AppDelegate (StoreKit) <SKPaymentTransactionObserver, SKProductsRequestDelegate>
-- (void) purchase;
-- (void) restore;
-@end
-
 @interface AppDelegate (Events)
 - (void) logEvent:(NSString*)event;
 - (void) logEvent:(NSString*)event withParameterName:(NSString*)name value:(NSString*)value;
