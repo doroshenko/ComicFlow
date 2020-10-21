@@ -398,7 +398,7 @@ static void __DisplayQueueCallBack(void* info) {
   self.view.backgroundColor = nil;  // Can't do this in Interface Builder
   
   _gridView.contentBackgroundOffset = CGPointMake(0.0, kBackgroundOffset);
-  _gridView.contentBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background.png"]];
+//  _gridView.contentBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background.png"]];
   _gridView.delegate = self;
   UITapGestureRecognizer* tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(_tap:)];
   [_gridView addGestureRecognizer:tapRecognizer];
