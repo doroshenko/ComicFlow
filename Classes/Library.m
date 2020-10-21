@@ -245,22 +245,17 @@ typedef enum {
 - (id) init {
   if ((self = [super init])) {
     _screenScale = [[UIScreen mainScreen] scale];
-//    _comicPlaceholderImageRef = CGImageRetain([[UIImage imageWithContentsOfFile:
-//                                              [[NSBundle mainBundle] pathForResource:@"Comic-Placeholder" ofType:@"png"]] CGImage]);
-//    XLOG_CHECK(_comicPlaceholderImageRef);
-//    _comicBackgroundImageRef = CGImageRetain([[UIImage imageWithContentsOfFile:
-//                                             [[NSBundle mainBundle] pathForResource:@"Comic-Background" ofType:@"png"]] CGImage]);
-//    XLOG_CHECK(_comicBackgroundImageRef);
-//    _comicScreenImageRef = CGImageRetain([[UIImage imageWithContentsOfFile:
-//                                         [[NSBundle mainBundle] pathForResource:@"Comic-Screen" ofType:@"png"]] CGImage]);
-//    XLOG_CHECK(_comicScreenImageRef);
-//    _collectionBackgroundImageRef = CGImageRetain([[UIImage imageWithContentsOfFile:
-//                                                  [[NSBundle mainBundle] pathForResource:@"Collection-Background" ofType:@"png"]] CGImage]);
-//    XLOG_CHECK(_collectionBackgroundImageRef);
-//    _collectionScreenImageRef = CGImageRetain([[UIImage imageWithContentsOfFile:
-//                                              [[NSBundle mainBundle] pathForResource:@"Collection-Screen" ofType:@"png"]] CGImage]);
-//    XLOG_CHECK(_collectionScreenImageRef);
-//    
+    _comicPlaceholderImageRef = CGImageRetain([[UIImage imageNamed:@"Comic-Placeholder.png"] CGImage]);
+    XLOG_CHECK(_comicPlaceholderImageRef);
+    _comicBackgroundImageRef = CGImageRetain([[UIImage imageNamed:@"Comic-Background.png"] CGImage]);
+    XLOG_CHECK(_comicBackgroundImageRef);
+    _comicScreenImageRef = CGImageRetain([[UIImage imageNamed:@"Comic-Screen.png"] CGImage]);
+    XLOG_CHECK(_comicScreenImageRef);
+    _collectionBackgroundImageRef = CGImageRetain([[UIImage imageNamed:@"Collection-Background.png"] CGImage]);
+    XLOG_CHECK(_collectionBackgroundImageRef);
+    _collectionScreenImageRef = CGImageRetain([[UIImage imageNamed:@"Collection-Screen.png"] CGImage]);
+    XLOG_CHECK(_collectionScreenImageRef);
+    
     DatabaseSQLRowID fakeRowID = kFakeRowID;
     _fakeData = [[NSData alloc] initWithBytes:&fakeRowID length:sizeof(DatabaseSQLRowID)];
   }

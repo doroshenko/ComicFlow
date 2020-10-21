@@ -7,15 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B236502154FABBA00A13B0D /* DocumentView-Shadow-Left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2364F9154FABBA00A13B0D /* DocumentView-Shadow-Left@2x.png */; };
-		1B236503154FABBA00A13B0D /* DocumentView-Shadow-Right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2364FA154FABBA00A13B0D /* DocumentView-Shadow-Right@2x.png */; };
-		1B236504154FABBA00A13B0D /* NavigationControl-Marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2364FB154FABBA00A13B0D /* NavigationControl-Marker@2x.png */; };
-		1B236505154FABBA00A13B0D /* NavigationControl-Thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2364FC154FABBA00A13B0D /* NavigationControl-Thumb@2x.png */; };
-		1B236506154FABBA00A13B0D /* OverlayView-Arrow-Bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2364FD154FABBA00A13B0D /* OverlayView-Arrow-Bottom@2x.png */; };
-		1B236507154FABBA00A13B0D /* OverlayView-Arrow-Left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2364FE154FABBA00A13B0D /* OverlayView-Arrow-Left@2x.png */; };
-		1B236508154FABBA00A13B0D /* OverlayView-Arrow-Right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2364FF154FABBA00A13B0D /* OverlayView-Arrow-Right@2x.png */; };
-		1B236509154FABBA00A13B0D /* OverlayView-Arrow-Top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B236500154FABBA00A13B0D /* OverlayView-Arrow-Top@2x.png */; };
-		1B23650A154FABBA00A13B0D /* OverlayView-Contents@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B236501154FABBA00A13B0D /* OverlayView-Contents@2x.png */; };
+		0C07C7522540B17E0007EC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C07C7512540B17E0007EC86 /* Assets.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -41,13 +33,6 @@
 		E24036C01891A1880098F028 /* Icon_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = E24036BC1891A1880098F028 /* Icon_76x76.png */; };
 		E24036C11891A1880098F028 /* Icon_76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24036BD1891A1880098F028 /* Icon_76x76@2x.png */; };
 		E247C19B1293A79D00CEB396 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E247C19A1293A79D00CEB396 /* CoreText.framework */; };
-		E26703791228D7D0009C4EBB /* NavigationControl-Marker.png in Resources */ = {isa = PBXBuildFile; fileRef = E26703721228D7D0009C4EBB /* NavigationControl-Marker.png */; };
-		E267037A1228D7D0009C4EBB /* NavigationControl-Thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = E26703731228D7D0009C4EBB /* NavigationControl-Thumb.png */; };
-		E267037B1228D7D0009C4EBB /* OverlayView-Arrow-Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = E26703741228D7D0009C4EBB /* OverlayView-Arrow-Bottom.png */; };
-		E267037C1228D7D0009C4EBB /* OverlayView-Arrow-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = E26703751228D7D0009C4EBB /* OverlayView-Arrow-Left.png */; };
-		E267037D1228D7D0009C4EBB /* OverlayView-Arrow-Right.png in Resources */ = {isa = PBXBuildFile; fileRef = E26703761228D7D0009C4EBB /* OverlayView-Arrow-Right.png */; };
-		E267037E1228D7D0009C4EBB /* OverlayView-Arrow-Top.png in Resources */ = {isa = PBXBuildFile; fileRef = E26703771228D7D0009C4EBB /* OverlayView-Arrow-Top.png */; };
-		E267037F1228D7D0009C4EBB /* OverlayView-Contents.png in Resources */ = {isa = PBXBuildFile; fileRef = E26703781228D7D0009C4EBB /* OverlayView-Contents.png */; };
 		E2704CAF19F2D090003CA755 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E286901418FC943E003F9EAE /* GCDWebServer.m */; };
 		E27664A818F5C52800A034BA /* GCDWebDAVServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E27664A718F5C52800A034BA /* GCDWebDAVServer.m */; };
 		E27664AA18F5C55600A034BA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E27664A918F5C55600A034BA /* libxml2.dylib */; };
@@ -146,8 +131,6 @@
 		E2A73D3E1A0C6C2F0052B750 /* NSMutableString+ANSI.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A73D3B1A0C6C2F0052B750 /* NSMutableString+ANSI.m */; };
 		E2B79A671C70FD74009DD383 /* Icon_83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B79A661C70FD74009DD383 /* Icon_83.5x83.5@2x.png */; };
 		E2C73E9519F2090300BEC354 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C73E9419F2090300BEC354 /* ApplicationDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E2CAA9E4122295F800A4D85A /* DocumentView-Shadow-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CAA9E2122295F800A4D85A /* DocumentView-Shadow-Left.png */; };
-		E2CAA9E5122295F800A4D85A /* DocumentView-Shadow-Right.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CAA9E3122295F800A4D85A /* DocumentView-Shadow-Right.png */; };
 		E2E50D3A18920DEC00908424 /* ComicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E50D3418920DEC00908424 /* ComicViewController.xib */; };
 		E2E50D3B18920DEC00908424 /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E50D3618920DEC00908424 /* LibraryViewController.xib */; };
 		E2E50D3C18920DEC00908424 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2E50D3818920DEC00908424 /* Localizable.strings */; };
@@ -156,15 +139,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B2364F9154FABBA00A13B0D /* DocumentView-Shadow-Left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DocumentView-Shadow-Left@2x.png"; sourceTree = "<group>"; };
-		1B2364FA154FABBA00A13B0D /* DocumentView-Shadow-Right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DocumentView-Shadow-Right@2x.png"; sourceTree = "<group>"; };
-		1B2364FB154FABBA00A13B0D /* NavigationControl-Marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationControl-Marker@2x.png"; sourceTree = "<group>"; };
-		1B2364FC154FABBA00A13B0D /* NavigationControl-Thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationControl-Thumb@2x.png"; sourceTree = "<group>"; };
-		1B2364FD154FABBA00A13B0D /* OverlayView-Arrow-Bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Arrow-Bottom@2x.png"; sourceTree = "<group>"; };
-		1B2364FE154FABBA00A13B0D /* OverlayView-Arrow-Left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Arrow-Left@2x.png"; sourceTree = "<group>"; };
-		1B2364FF154FABBA00A13B0D /* OverlayView-Arrow-Right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Arrow-Right@2x.png"; sourceTree = "<group>"; };
-		1B236500154FABBA00A13B0D /* OverlayView-Arrow-Top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Arrow-Top@2x.png"; sourceTree = "<group>"; };
-		1B236501154FABBA00A13B0D /* OverlayView-Contents@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Contents@2x.png"; sourceTree = "<group>"; };
+		0C07C7512540B17E0007EC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -216,13 +191,6 @@
 		E267036D1228D7C0009C4EBB /* NavigationControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControl.m; sourceTree = "<group>"; };
 		E267036E1228D7C0009C4EBB /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
 		E267036F1228D7C0009C4EBB /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
-		E26703721228D7D0009C4EBB /* NavigationControl-Marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationControl-Marker.png"; sourceTree = "<group>"; };
-		E26703731228D7D0009C4EBB /* NavigationControl-Thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationControl-Thumb.png"; sourceTree = "<group>"; };
-		E26703741228D7D0009C4EBB /* OverlayView-Arrow-Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Arrow-Bottom.png"; sourceTree = "<group>"; };
-		E26703751228D7D0009C4EBB /* OverlayView-Arrow-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Arrow-Left.png"; sourceTree = "<group>"; };
-		E26703761228D7D0009C4EBB /* OverlayView-Arrow-Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Arrow-Right.png"; sourceTree = "<group>"; };
-		E26703771228D7D0009C4EBB /* OverlayView-Arrow-Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Arrow-Top.png"; sourceTree = "<group>"; };
-		E26703781228D7D0009C4EBB /* OverlayView-Contents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OverlayView-Contents.png"; sourceTree = "<group>"; };
 		E27664A618F5C52800A034BA /* GCDWebDAVServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebDAVServer.h; sourceTree = "<group>"; };
 		E27664A718F5C52800A034BA /* GCDWebDAVServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebDAVServer.m; sourceTree = "<group>"; };
 		E27664A918F5C55600A034BA /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -437,8 +405,6 @@
 		E2C73E9419F2090300BEC354 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
 		E2CAA9DF122295F100A4D85A /* DocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentView.h; sourceTree = "<group>"; };
 		E2CAA9E0122295F100A4D85A /* DocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentView.m; sourceTree = "<group>"; };
-		E2CAA9E2122295F800A4D85A /* DocumentView-Shadow-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DocumentView-Shadow-Left.png"; sourceTree = "<group>"; };
-		E2CAA9E3122295F800A4D85A /* DocumentView-Shadow-Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DocumentView-Shadow-Right.png"; sourceTree = "<group>"; };
 		E2CAA9EB1222961400A4D85A /* BasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimation.h; sourceTree = "<group>"; };
 		E2CAA9EC1222961400A4D85A /* BasicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimation.m; sourceTree = "<group>"; };
 		E2E50D3518920DEC00908424 /* eng */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = eng; path = eng.lproj/ComicViewController.xib; sourceTree = "<group>"; };
@@ -551,31 +517,6 @@
 			name = "Frameworks and Libraries";
 			sourceTree = "<group>";
 		};
-		E2059814121ED28000A271CC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E2CAA9E2122295F800A4D85A /* DocumentView-Shadow-Left.png */,
-				1B2364F9154FABBA00A13B0D /* DocumentView-Shadow-Left@2x.png */,
-				E2CAA9E3122295F800A4D85A /* DocumentView-Shadow-Right.png */,
-				1B2364FA154FABBA00A13B0D /* DocumentView-Shadow-Right@2x.png */,
-				E26703721228D7D0009C4EBB /* NavigationControl-Marker.png */,
-				1B2364FB154FABBA00A13B0D /* NavigationControl-Marker@2x.png */,
-				E26703731228D7D0009C4EBB /* NavigationControl-Thumb.png */,
-				1B2364FC154FABBA00A13B0D /* NavigationControl-Thumb@2x.png */,
-				E26703741228D7D0009C4EBB /* OverlayView-Arrow-Bottom.png */,
-				1B2364FD154FABBA00A13B0D /* OverlayView-Arrow-Bottom@2x.png */,
-				E26703751228D7D0009C4EBB /* OverlayView-Arrow-Left.png */,
-				1B2364FE154FABBA00A13B0D /* OverlayView-Arrow-Left@2x.png */,
-				E26703761228D7D0009C4EBB /* OverlayView-Arrow-Right.png */,
-				1B2364FF154FABBA00A13B0D /* OverlayView-Arrow-Right@2x.png */,
-				E26703771228D7D0009C4EBB /* OverlayView-Arrow-Top.png */,
-				1B236500154FABBA00A13B0D /* OverlayView-Arrow-Top@2x.png */,
-				E26703781228D7D0009C4EBB /* OverlayView-Contents.png */,
-				1B236501154FABBA00A13B0D /* OverlayView-Contents@2x.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		E2059926121EE21400A271CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -598,7 +539,7 @@
 			isa = PBXGroup;
 			children = (
 				E229316A121E260F00484F9F /* Classes */,
-				E2059814121ED28000A271CC /* Resources */,
+				0C07C7512540B17E0007EC86 /* Assets.xcassets */,
 			);
 			path = "Cooliris-ToolKit";
 			sourceTree = "<group>";
@@ -999,33 +940,16 @@
 			files = (
 				E205992A121EE21400A271CC /* MainWindow.xib in Resources */,
 				E24036BE1891A1880098F028 /* Icon_72x72.png in Resources */,
-				E2CAA9E4122295F800A4D85A /* DocumentView-Shadow-Left.png in Resources */,
 				E24036C01891A1880098F028 /* Icon_76x76.png in Resources */,
-				E2CAA9E5122295F800A4D85A /* DocumentView-Shadow-Right.png in Resources */,
 				E2E50D3C18920DEC00908424 /* Localizable.strings in Resources */,
 				E24036C11891A1880098F028 /* Icon_76x76@2x.png in Resources */,
-				E26703791228D7D0009C4EBB /* NavigationControl-Marker.png in Resources */,
 				E2B79A671C70FD74009DD383 /* Icon_83.5x83.5@2x.png in Resources */,
-				E267037A1228D7D0009C4EBB /* NavigationControl-Thumb.png in Resources */,
-				E267037B1228D7D0009C4EBB /* OverlayView-Arrow-Bottom.png in Resources */,
-				E267037C1228D7D0009C4EBB /* OverlayView-Arrow-Left.png in Resources */,
-				E267037D1228D7D0009C4EBB /* OverlayView-Arrow-Right.png in Resources */,
-				E267037E1228D7D0009C4EBB /* OverlayView-Arrow-Top.png in Resources */,
-				E267037F1228D7D0009C4EBB /* OverlayView-Contents.png in Resources */,
 				E2F896171C3C997000FC8891 /* Images.xcassets in Resources */,
 				E2F8960D1C3C944300FC8891 /* LaunchScreen.xib in Resources */,
 				E2E50D3A18920DEC00908424 /* ComicViewController.xib in Resources */,
-				1B236502154FABBA00A13B0D /* DocumentView-Shadow-Left@2x.png in Resources */,
-				1B236503154FABBA00A13B0D /* DocumentView-Shadow-Right@2x.png in Resources */,
-				1B236504154FABBA00A13B0D /* NavigationControl-Marker@2x.png in Resources */,
-				1B236505154FABBA00A13B0D /* NavigationControl-Thumb@2x.png in Resources */,
-				1B236506154FABBA00A13B0D /* OverlayView-Arrow-Bottom@2x.png in Resources */,
-				1B236507154FABBA00A13B0D /* OverlayView-Arrow-Left@2x.png in Resources */,
+				0C07C7522540B17E0007EC86 /* Assets.xcassets in Resources */,
 				E24036BF1891A1880098F028 /* Icon_72x72@2x.png in Resources */,
-				1B236508154FABBA00A13B0D /* OverlayView-Arrow-Right@2x.png in Resources */,
 				E2E50D3B18920DEC00908424 /* LibraryViewController.xib in Resources */,
-				1B236509154FABBA00A13B0D /* OverlayView-Arrow-Top@2x.png in Resources */,
-				1B23650A154FABBA00A13B0D /* OverlayView-Contents@2x.png in Resources */,
 				E22A08FF18EB5E6700A4FF82 /* GCDWebUploader.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

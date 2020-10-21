@@ -183,14 +183,14 @@ static void __DisplayQueueCallBack(void* info) {
   if ((self = [super init])) {
     _window = window;
     
-//    _comicImage = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Comic-Background" ofType:@"png"]];
-//    XLOG_CHECK(_comicImage);
-//    _collectionImage = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Collection-Background" ofType:@"png"]];
-//    XLOG_CHECK(_collectionImage);
-//    _newImage = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"New" ofType:@"png"]];
-//    XLOG_CHECK(_newImage);
-//    _ribbonImage = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Ribbon" ofType:@"png"]];
-//    XLOG_CHECK(_ribbonImage);
+    _comicImage = [[UIImage imageNamed:@"Comic-Background.png"] retain];
+    XLOG_CHECK(_comicImage);
+    _collectionImage = [[UIImage imageNamed:@"Collection-Background.png"] retain];
+    XLOG_CHECK(_collectionImage);
+    _newImage = [[UIImage imageNamed:@"New.png"] retain];
+    XLOG_CHECK(_newImage);
+    _ribbonImage = [[UIImage imageNamed:@"Ribbon.png"] retain];
+    XLOG_CHECK(_ribbonImage);
     
     DatabaseSQLRowID collectionID = (int)[[NSUserDefaults standardUserDefaults] integerForKey:kDefaultKey_CurrentCollection];
     if (collectionID) {
@@ -398,7 +398,7 @@ static void __DisplayQueueCallBack(void* info) {
   self.view.backgroundColor = nil;  // Can't do this in Interface Builder
   
   _gridView.contentBackgroundOffset = CGPointMake(0.0, kBackgroundOffset);
-  _gridView.contentBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Background" ofType:@"png"]]];
+  _gridView.contentBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background.png"]];
   _gridView.delegate = self;
   UITapGestureRecognizer* tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(_tap:)];
   [_gridView addGestureRecognizer:tapRecognizer];
@@ -607,7 +607,7 @@ static void __DisplayQueueCallBack(void* info) {
   
   // This code path is only used before iOS 6.0
   if (_launchView && UIInterfaceOrientationIsLandscape(self.interfaceOrientation)) {
-    UIImage* image = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Default-Landscape" ofType:@"png"]];
+    UIImage* image = [UIImage imageNamed:@"Default-Landscape.png"];
     _launchView.image = image;
     [image release];
   }
@@ -634,10 +634,8 @@ static void __DisplayQueueCallBack(void* info) {
     if (_launched == NO) {
       _launchView = [[UIImageView alloc] initWithFrame:self.view.bounds];
       _launchView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-      NSString* path = [[NSBundle mainBundle] pathForResource:(UIInterfaceOrientationIsLandscape(self.interfaceOrientation) ? @"Default-Landscape" : @"Default-Portrait") ofType:@"png"];
-      UIImage* image = [[UIImage alloc] initWithContentsOfFile:path];
-      _launchView.image = image;
-      [image release];
+      NSString* name = UIInterfaceOrientationIsLandscape(self.interfaceOrientation) ? @"Default-Landscape.png" : @"Default-Portrait.png";
+      _launchView.image = [UIImage imageNamed:name];
       [self.view addSubview:_launchView];
       _launched = YES;
     }
